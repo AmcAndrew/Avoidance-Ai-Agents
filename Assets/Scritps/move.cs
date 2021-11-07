@@ -13,9 +13,11 @@ public class MainPlayer : MonoBehaviour {
   
     if (Physics.Raycast(ray, out hitInfo)) {
         //what happens when intersected
+      Turn();
     }else{
         //what happens when not intersected
-     }
+      Straight();
+    }
   }
   
   void Turn{
