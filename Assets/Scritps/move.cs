@@ -17,4 +17,12 @@ public class MainPlayer : MonoBehaviour {
         //what happens when not intersected
      }
   }
+  
+  void Turn{
+  
+  }
+  
+  void straight{
+  
+  }
 }
